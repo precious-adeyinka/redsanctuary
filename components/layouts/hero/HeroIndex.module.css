@@ -1,0 +1,7 @@
+.heroFormBg {
+    background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.50)), url('../../../public/assets/images/search/bg-two.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
