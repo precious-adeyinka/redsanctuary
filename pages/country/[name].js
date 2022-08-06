@@ -1,7 +1,7 @@
 import Head from 'next/head'
 
 // components
-import CountryIndex from '../components/views/country/CountryIndex'
+import CountryIndex from '../../components/views/country/CountryIndex'
 
 export default function Country({country}) {
   return (
@@ -34,7 +34,7 @@ export default function Country({country}) {
 export async function getServerSideProps (context) {
     return {
         props: {
-            country: context.query.name
+          country: context.query.name
         }
     }
 }

@@ -17,7 +17,7 @@ export default function HeroIndex() {
     }
 
     return (
-        <div className={`h-32 w-11/12 bg-red-50 mx-auto my-0 rounded-b-md flex items-center justify-center ${styled.heroFormBg}`}>
+        <div className={`h-32 w-full bg-red-50 mx-auto my-0 rounded-b-md flex items-center justify-center ${styled.heroFormBg}`}>
             {/* Inner */}
             <div className='h-full w-full flex items-center justify-center'>
                 <form className='h-full w-11/12 md:w-1/2 flex items-center justify-center'>

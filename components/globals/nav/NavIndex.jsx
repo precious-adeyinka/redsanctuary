@@ -13,12 +13,14 @@ export default function NavIndex() {
     }
 
   return (
-    <nav className='h-12 w-11/12 mx-auto mt-3 bg-red-600 px-4 md:px-10 rounded-t-md position relative z-1000'>
+    <nav className='h-12 w-full mx-auto mt-3 bg-red-600 px-4 md:px-10 rounded-t-md position relative z-1000'>
         {/* Inner */}
         <div className='h-full w-full flex justify-between items-center'>
             {/* Left */}
             <div className='h-full w-1/2 flex items-center justify-start'>
-                <h1 className='text-white text-md font-medium'>Red Sanctuary</h1>
+                <Link href="/">
+                    <h1 className='text-white text-md font-medium cursor-pointer'>Red Sanctuary</h1>
+                </Link>
             </div>
             {/* Right */}
             <div className='h-full w-1/2 flex items-center justify-end'>
@@ -62,22 +64,22 @@ export default function NavIndex() {
                     id="mobileMenu"
                     className={`h-auto w-72 p-3 py-10 bg-white rounded-md flex-col items-center justify-center space-y-5 position absolute top-full -left-full transform -translate-x-3/4 shadow-lg ${isDrawerOpen ? 'flex' : 'hidden'}`}>
                         <li className='flex items-center justify-center'>
-                            <Link href="#">
+                            <Link href="/">
                                 <span className="flex items-center justify-center text-red-600 cursor-pointer text-md font-medium">Home</span>
                             </Link>
                         </li>
                         <li className='flex items-center justify-center'>
-                            <Link href="#">
+                            <Link href="/about">
                                 <span className="flex items-center justify-center text-red-600 cursor-pointer text-md font-medium">About Us</span>
                             </Link>
                         </li>
                         <li className='flex items-center justify-center'>
-                            <Link href="#">
+                            <Link href="/sanctuary">
                                 <span className="flex items-center justify-center text-red-600 cursor-pointer text-md font-medium">Sanctuary</span>
                             </Link>
                         </li>
                         <li className='flex items-center justify-center'>
-                            <Link href="#">
+                            <Link href="/participate">
                                 <span className="flex items-center justify-center text-red-600 cursor-pointer text-md font-medium">Get Involved</span>
                             </Link>
                         </li>

@@ -52,7 +52,7 @@ export default function ContentIndex() {
     ]);
 
   return (
-    <div className='h-auto w-11/12 mx-auto flex flex-col items-center justify-center space-y-12 md:space-y-28 my-3 py-10'>
+    <div className='h-auto w-full mx-auto flex flex-col items-center justify-center space-y-12 md:space-y-28 my-3 py-10'>
        {/* Section */}
         <SpeciesSliderIndex
         label={'Endangered By Country'}

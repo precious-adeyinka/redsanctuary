@@ -5,7 +5,7 @@ export default function Document () {
       <Html>
         <Head>
             {/* Meta */}
-            <meta charset="UTF-8" />
+            <meta charSet="UTF-8" />
             <meta name="author" content="Precious Adeyinka" />
             <meta name="description" content="A safe zone for endangered species" />
             
@@ -18,7 +18,7 @@ export default function Document () {
             href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css" 
             integrity="sha512-vebUliqxrVkBy3gucMhClmyQP9On/HAWQdKDXRaAlb/FKuTbxkjPKUyqVOxAcGwFDka79eTF+YXwfke1h3/wfg==" 
             crossOrigin="anonymous" 
-            referrerpolicy="no-referrer" />
+            referrerPolicy="no-referrer" />
 
             {/* Fonts */}
             <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet" />

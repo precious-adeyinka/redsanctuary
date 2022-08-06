@@ -12,10 +12,7 @@ export default function SpeciesSliderIndex({label, filter, data}) {
         <div className='h-12 w-full flex items-center justify-between'>
             <div className='font-normal text-xl'>{label}</div>
             <div className='font-bold cursor-pointer flex items-center justify-center'>
-                <Link href={{
-                    pathname: "sanctuary/species",
-                    query: {filter: `${filter}`}
-                }}>
+                <Link href={'/sanctuary'}>
                    <div className='flex items-center justify-center space-x-2'>
                         <span>View all</span>
                         <i className='la la-arrow-right text-lg'></i>
@@ -28,7 +25,11 @@ export default function SpeciesSliderIndex({label, filter, data}) {
             {
                 data && data?.map((item, index) => {
                     return (
-                        <div
+                        <Link
+                        key={item.id}
+                        href={filter === 'country' ? `/country/${item.name}` : `/species/${item.name}`}
+                        >
+                            <div
                         style={{
                             backgroundImage: `linear-gradient(rgba(0,0,0,0.30), rgba(0,0,0,0.30)), url(${item.image})`,
                             objectFit: 'cover',
@@ -37,10 +38,10 @@ export default function SpeciesSliderIndex({label, filter, data}) {
                             backgroundRepeat: 'no-repeat'
                     
                         }}
-                        key={item.id}
                         className='h-72 w-full bg-red-600 rounded-md shadow-lg cursor-pointer flex items-center justify-center'>
-                           <span className='text-white text-xl font-normal'>{item.name}</span>
+                            <span className='text-white text-xl font-normal'>{item.name}</span>
                         </div>
+                        </Link>
                     )
                 })
             }
