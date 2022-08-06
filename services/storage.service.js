@@ -19,6 +19,11 @@ class Storage {
         return result;
     }
 
+    getDataFromLocalStorage (key) {
+        const result = JSON.parse(this.storage.getItem(key));
+        return result;
+    }
+
     setData(key, value) {
         this.storage.setItem(key, JSON.stringify(value));
     }

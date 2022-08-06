@@ -25,22 +25,22 @@ export default function NavIndex() {
                 {/* Desktop Menu */}
                 <ul className='h-full flex items-center justify-center space-x-5 showOnDesktop'>
                     <li className='flex items-center justify-center'>
-                        <Link href="#">
+                        <Link href="/">
                             <span className="flex items-center justify-center text-white cursor-pointer text-sm font-normal">Home</span>
                         </Link>
                     </li>
                     <li className='flex items-center justify-center'>
-                        <Link href="#">
+                        <Link href="/about">
                             <span className="flex items-center justify-center text-white cursor-pointer text-sm font-normal">About Us</span>
                         </Link>
                     </li>
                     <li className='flex items-center justify-center'>
-                        <Link href="#">
+                        <Link href="/sanctuary">
                             <span className="flex items-center justify-center text-white cursor-pointer text-sm font-normal">Sanctuary</span>
                         </Link>
                     </li>
                     <li className='flex items-center justify-center'>
-                        <Link href="#">
+                        <Link href="/participate">
                             <span className="flex items-center justify-center text-white cursor-pointer text-sm font-normal">Get Involved</span>
                         </Link>
                     </li>
