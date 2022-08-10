@@ -167,6 +167,14 @@ export default function SanctuaryIndex() {
         <div className='h-auto w-full bg-white overflow-hidden'>
             <div className='h-auto w-11/12 mx-auto'>
                 <NavIndex />
+                <section className='h-auto w-full px-3 py-10 bg-red-50 rounded-b-md'>
+                    <h2 className='w-full text-2xl md:text-4xl font-medium flex items-center justify-center text-black'>REDSANCTUARY DATA PAGE</h2>
+                    <p className='w-full md:w-7/12 mx-auto text-center text-gray-700 leading-loose my-3 text-gray-600'>
+                        On this page you will find a category of data that are sectioned based on countries of the world, where we have endangered species, that will need your help, you can select the country closest to your location and figure out how to support in the <a href="/participate" className='underline text-red-600 font-medium' target="_blank" rel="noopener noreferrer">
+                            get involved</a> page.
+                    </p>
+                </section>
+
                 <section className='h-auto w-full mx-auto my-5 md:mt-10'>
                     {/* Inner */}
                     <div className='h-auto w-full flex flex-col items-start justify-start space-y-10'>

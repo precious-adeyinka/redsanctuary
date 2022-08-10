@@ -61,11 +61,11 @@ export default function ContentIndex() {
         />
 
         {/* Section */}
-        <SpeciesSliderIndex
+        {/* <SpeciesSliderIndex
         label={'Endangered By Species'}
         filter={'species'}
         data={species}
-        />
+        /> */}
     </div>
   )
 }

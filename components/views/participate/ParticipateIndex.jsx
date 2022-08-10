@@ -22,7 +22,7 @@ export default function ParticipateIndex() {
   return (
     <div className='h-auto w-11/12 mx-auto flex flex-col items-center justify-center pb-5'>
       <NavIndex />
-      <section className='h-auto w-full px-3 py-10 bg-gray-100 rounded-b-md'>
+      <section className='h-auto w-full px-3 py-10 bg-red-50 rounded-b-md'>
         <h2 className='w-full text-2xl md:text-4xl font-medium flex items-center justify-center'>Get Involved!</h2>
         <p className='w-full md:w-5/12 mx-auto text-center text-gray-700 leading-snug my-3'>Help us to fight against animal extinction around the world one species at a time, in all the countries starting from yours by creating awareness.</p>
         <div className="flex items-center justify-center space-x-3">
@@ -76,7 +76,7 @@ export default function ParticipateIndex() {
       <section className='h-auto w-full flex flex-col items-center justify-center mt-20'>
         <h2 className='w-full text-2xl md:text-4xl font-medium flex items-center justify-center'>What Now?</h2>
         <p className='text-gray-700 text-center mx-auto leading-snug w-full md:w-6/12 my-3'>
-          Most of the time people are faced with the question what to do next, and below is a couple of actions you can take to help stop animal extinction.
+          Most of the time people are faced with the question what to do next, and below is a couple of actions you can take to gracefully support this movement.
         </p>
         {/* Row */}
         <section className='grid grid-cols-1 md:grid-cols-4 gap-5 my-5'>

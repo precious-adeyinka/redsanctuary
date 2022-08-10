@@ -15,16 +15,19 @@ export default function FooterIndex() {
         {/* Down */}
         <div className='h-auto md:h-12 w-full bg-gray-100 rounded-md flex flex-col md:flex-row items-center justify-center px-5 py-3'>
             <div className='h-12 md:h-full w-full md:w-1/2 flex items-center justify-center md:justify-start'>
-                <h2 className='font-normal text-sm text-gray-700 text-center md:text-left'>&copy; Copyright Red Sanctuary | All Rights Reserved</h2>
+                {/* <h2 className='font-normal text-sm text-gray-700 text-center md:text-left'>&copy; Copyright Red Sanctuary | All Rights Reserved</h2> */}
+                <h2 className='font-normal text-sm text-gray-700 text-center md:text-left'>
+                    Made with&nbsp;<i className='la la-heart text-red-600'></i>&nbsp;by <a href="https://www.linkedin.com/in/precious-adeyinka" className='underline text-red-600 font-medium' target="_blank" rel="noopener noreferrer">Precious Adeyinka.</a>
+                </h2>
             </div>
             <div className='h-12 md:h-full w-full md:w-1/2 flex items-center justify-center md:justify-end space-x-4'>
-                <Link href="#">
+                <Link href="https://www.facebook.com/officialpreciousadeyinka">
                     <i className='la la-facebook text-2xl md:text-xl text-red-500 cursor-pointer'></i>
                 </Link>
-                <Link href="#">
+                <Link href="https://www.twitter.com/preshadeyinka">
                     <i className='la la-twitter text-2xl md:text-xl text-red-500 cursor-pointer'></i>
                 </Link>
-                <Link href="#">
+                <Link href="https://www.linkedin.com/in/precious-adeyinka">
                     <i className='la la-linkedin text-2xl md:text-xl text-red-500 cursor-pointer'></i>
                 </Link>
             </div>
