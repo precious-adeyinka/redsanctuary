@@ -10,7 +10,7 @@ export default function Country({country}) {
         <title>Red Sanctuary | Country</title>
 
           {/* Meta */}
-          <meta charset="UTF-8" />
+          <meta charSet="UTF-8" />
           <meta name="author" content="Precious Adeyinka" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <meta name="description" content="A safe zone for endangered species" />
